@@ -19,7 +19,7 @@ export const Route = createRootRoute({
       {
         name: 'description',
         content:
-          'Välimees OÜ teeb muruniitmist, trimmerdamist, põrandapesu ja värvimistöid Otepääl, Kanepis, Vidrikes ja lähiümbruses. Vaata teenuseid, klientide arvamusi ja võta ühendust.',
+          'Välimees OÜ teeb muruniitmist, trimmerdamist, Kivi- ja puitpindade pesu ja värvimistöid Otepääl ja lähiümbruses. Vaata teenuseid, klientide arvamusi ja võta ühendust.',
       },
     ],
   }),
