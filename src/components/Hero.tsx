@@ -3,7 +3,7 @@ import { MowIcon, PaintIcon, TrimIcon, WashIcon } from '@/components/ServiceIcon
 const HERO_SERVICES = [
   { icon: MowIcon, label: 'Muruniitmine' },
   { icon: TrimIcon, label: 'Trimmerdamine' },
-  { icon: WashIcon, label: 'Põrandapesu' },
+  { icon: WashIcon, label: 'Kivi- ja puitpindade pesu' },
   { icon: PaintIcon, label: 'Värvimistööd' },
 ]
 
@@ -23,12 +23,12 @@ export function Hero() {
           <p className="mb-4 font-display text-sm font-semibold uppercase tracking-[0.35em] text-[var(--color-green-bright)]">
             Otepää ja kagu-eesti
           </p>
-          <h1 className="font-display text-6xl font-extrabold uppercase leading-[0.95] tracking-tight md:text-7xl">
+          <h1 className="font-display text-4xl font-extrabold uppercase leading-[0.95] tracking-tight md:text-7xl">
             Välimees-
             <br />
             Sinu usaldusväärne abiline välitöödel
             <br />
-            <span className="text-[var(--color-green-bright)]">hästi tehtud töö!</span>
+            <span className="text-[var(--color-green-bright)]">Võta ühendust!</span>
           </h1>
           <p className="mt-6 max-w-md text-lg text-white/80">
             Välimees OÜ niidab muru, hooldab hekke ja trimmib alasid, peseb
