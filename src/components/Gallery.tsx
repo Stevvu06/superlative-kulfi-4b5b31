@@ -2,10 +2,10 @@ import { MowIcon, MoreIcon, PaintIcon, TrimIcon, WashIcon } from '@/components/S
 
 const SERVICES = [
   { icon: MowIcon, title: 'Muruniitmine', description: 'Regulaarne ja ühekordne muruniitmine kodu- ja suvilaaedades.' },
-  { icon: TrimIcon, title: 'Trimmerdamine', description: 'Hekkide, põõsaste ja raskesti ligipääsetavate alade trimmerdamine.' },
-  { icon: WashIcon, title: 'Põrandapesu', description: 'Terrasside, õuepindade ja siseruumide põrandate pesu.' },
-  { icon: PaintIcon, title: 'Värvimistööd', description: 'Aedade, fassaadide ja muude pindade värvimine.' },
-  { icon: MoreIcon, title: 'Muud tööd', description: 'Muud majapidamis- ja hooldustööd kokkuleppel.' },
+  { icon: TrimIcon, title: 'Trimmerdamine', description: 'Hekkide, põõsaste ja raskesti ligipääsetavate alade trimmerdamine (ka võsalõikus).' },
+  { icon: WashIcon, title: 'Kivi- ja puitpindade pesu', description: 'Terrasside, Fassaadi ja Tänavakivi pesu.' },
+  { icon: PaintIcon, title: 'Värvimistööd', description: 'Aedade, väiksemate hoonete ja muude pindade värvimine ja õlitamine.' },
+  { icon: MoreIcon, title: 'Muud tööd', description: 'Muud aia, väli- ja hooldustööd kokkuleppel.' },
 ]
 
 export function Gallery() {
