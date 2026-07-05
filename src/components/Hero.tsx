@@ -31,9 +31,10 @@ export function Hero() {
             <span className="text-[var(--color-green-bright)]">Võta ühendust!</span>
           </h1>
           <p className="mt-6 max-w-md text-lg text-white/80">
-            Välimees OÜ niidab muru, hooldab hekke ja trimmib alasid, peseb
-            põrandaid ning teeb värvimistöid ja muid välitöid Otepääl,
-            Kanepis ja lähiümbruses.
+            Välimees OÜ pakub professionaalseid välitööde teenuseid
+            nii era- kui äriklientidele.
+            Meie eesmärk on hoida sinu kinnistu puhas, hooldatud ja esinduslik aastaringselt.
+            Kirjuta julgelt!
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
