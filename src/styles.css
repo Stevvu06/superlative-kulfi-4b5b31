@@ -1,0 +1,61 @@
+@import "tailwindcss" source("../");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600&display=swap");
+
+:root {
+  --color-bark: #211d17;
+  --color-moss: #38512f;
+  --color-moss-dark: #263620;
+  --color-stone: #e8e3d8;
+  --color-stone-dim: #d7d0bf;
+  --color-rust: #c1571f;
+  --color-rust-bright: #e0722f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-stone);
+  color: var(--color-bark);
+}
+
+.font-display {
+  font-family: "Big Shoulders Display", "Arial Narrow", sans-serif;
+}
+
+code {
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.05;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-rise {
+  animation: rise 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
