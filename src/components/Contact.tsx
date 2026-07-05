@@ -3,22 +3,22 @@ import { useState } from 'react'
 const CONTACT_ITEMS = [
   {
     label: 'Telefon',
-    value: '+372 5566 7788',
-    href: 'tel:+3725566778',
+    value: '+372 5887 8950',
+    href: 'tel:+37258878950',
+  },
+  {
+    label: 'Telefon',
+    value: '+372 5668 3884',
+    href: 'tel:+37256683884',
   },
   {
     label: 'E-post',
-    value: 'info@valimees.ee',
-    href: 'mailto:info@valimees.ee',
+    value: 'info.valimees@gmail.com',
+    href: 'mailto:info.valimees@gmail.com',
   },
   {
     label: 'Tegutsemispiirkond',
-    value: 'Lääne-Eesti (Haapsalu, Ridala, Lihula, Nõva)',
-    href: undefined,
-  },
-  {
-    label: 'Registrikood',
-    value: 'Välimees OÜ, reg. nr 14 87 65 43',
+    value: 'Otepää, Kanepi, Vidrike ja lähiümbrus',
     href: undefined,
   },
 ]
@@ -45,25 +45,25 @@ export function Contact() {
   }
 
   return (
-    <section id="kontakt" className="bg-[var(--color-moss-dark)] py-24 text-[var(--color-stone)]">
+    <section id="kontakt" className="bg-[var(--color-slate-dark)] py-24 text-white">
       <div className="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-[1fr_1fr] md:items-start">
         <div>
-          <p className="mb-3 font-display text-sm font-semibold uppercase tracking-[0.35em] text-[var(--color-rust-bright)]">
+          <p className="mb-3 font-display text-sm font-semibold uppercase tracking-[0.35em] text-[var(--color-green-bright)]">
             Võta ühendust
           </p>
           <h2 className="font-display text-4xl font-extrabold uppercase leading-tight md:text-5xl">
             Räägime objektist
           </h2>
-          <p className="mt-6 max-w-md text-[var(--color-stone)]/75">
+          <p className="mt-6 max-w-md text-white/75">
             Helista, kirjuta või saada meile paar fotot oma kinnistust — vaatame
             üle ja anname ausa hinnapakkumise ühe kuni kahe tööpäeva jooksul.
           </p>
           <ul className="mt-8 space-y-5">
-            {CONTACT_ITEMS.map((item) => (
-              <li key={item.label} className="border-b border-[var(--color-stone)]/15 pb-4">
-                <p className="text-xs uppercase tracking-wide text-[var(--color-stone)]/50">{item.label}</p>
+            {CONTACT_ITEMS.map((item, index) => (
+              <li key={`${item.label}-${index}`} className="border-b border-white/15 pb-4">
+                <p className="text-xs uppercase tracking-wide text-white/50">{item.label}</p>
                 {item.href ? (
-                  <a href={item.href} className="text-lg font-medium hover:text-[var(--color-rust-bright)]">
+                  <a href={item.href} className="text-lg font-medium hover:text-[var(--color-green-bright)]">
                     {item.value}
                   </a>
                 ) : (
@@ -74,7 +74,7 @@ export function Contact() {
           </ul>
         </div>
         <form
-          className="rounded-3xl border border-[var(--color-stone)]/15 bg-[var(--color-bark)]/40 p-8"
+          className="rounded-3xl border border-white/15 bg-[var(--color-slate-soft)] p-8"
           name="kontakt"
           method="POST"
           data-netlify="true"
@@ -95,7 +95,7 @@ export function Contact() {
                 type="text"
                 name="nimi"
                 required
-                className="rounded-xl border border-[var(--color-stone)]/20 bg-[var(--color-stone)]/5 px-4 py-3 text-[var(--color-stone)] outline-none focus:border-[var(--color-rust-bright)]"
+                className="rounded-xl border border-white/20 bg-white/5 px-4 py-3 text-white outline-none focus:border-[var(--color-green-bright)]"
                 placeholder="Kaido Reinuma"
               />
             </label>
@@ -105,7 +105,7 @@ export function Contact() {
                 type="email"
                 name="epost"
                 required
-                className="rounded-xl border border-[var(--color-stone)]/20 bg-[var(--color-stone)]/5 px-4 py-3 text-[var(--color-stone)] outline-none focus:border-[var(--color-rust-bright)]"
+                className="rounded-xl border border-white/20 bg-white/5 px-4 py-3 text-white outline-none focus:border-[var(--color-green-bright)]"
                 placeholder="sina@näide.ee"
               />
             </label>
@@ -115,19 +115,19 @@ export function Contact() {
                 name="sonum"
                 required
                 rows={4}
-                className="resize-none rounded-xl border border-[var(--color-stone)]/20 bg-[var(--color-stone)]/5 px-4 py-3 text-[var(--color-stone)] outline-none focus:border-[var(--color-rust-bright)]"
+                className="resize-none rounded-xl border border-white/20 bg-white/5 px-4 py-3 text-white outline-none focus:border-[var(--color-green-bright)]"
                 placeholder="Kirjelda oma objekti ja soovitud tööd"
               />
             </label>
             <button
               type="submit"
               disabled={status === 'sending'}
-              className="rounded-full bg-[var(--color-rust)] px-7 py-3 font-semibold uppercase tracking-wide text-[var(--color-stone)] transition-colors hover:bg-[var(--color-rust-bright)] disabled:opacity-60"
+              className="rounded-full bg-[var(--color-green)] px-7 py-3 font-semibold uppercase tracking-wide text-white transition-colors hover:bg-[var(--color-green-bright)] disabled:opacity-60"
             >
               {status === 'sending' ? 'Saadan...' : 'Saada sõnum'}
             </button>
             {status === 'sent' && (
-              <p className="text-sm font-medium text-[var(--color-rust-bright)]">
+              <p className="text-sm font-medium text-[var(--color-green-bright)]">
                 Aitäh! Võtame sinuga peagi ühendust.
               </p>
             )}

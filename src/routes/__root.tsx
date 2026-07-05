@@ -14,12 +14,12 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'Välimees OÜ — Metsa- ja aiatööd',
+        title: 'Välimees OÜ — Muruniitmine, trimmerdamine ja hooldustööd Otepääl',
       },
       {
         name: 'description',
         content:
-          'Välimees OÜ teeb metsa-, haljastus- ja hooldustöid Eestis. Vaata meie senist tööd, klientide arvamusi ja võta ühendust.',
+          'Välimees OÜ teeb muruniitmist, trimmerdamist, põrandapesu ja värvimistöid Otepääl, Kanepis, Vidrikes ja lähiümbruses. Vaata teenuseid, klientide arvamusi ja võta ühendust.',
       },
     ],
   }),
