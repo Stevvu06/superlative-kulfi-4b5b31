@@ -1,4 +1,4 @@
-const AREAS = ['Otepää', 'Kanepi', 'Vidrike', 'ja lähiümbrus']
+const AREAS = ['Otepää', 'Kanepi', 'ja lähiümbrus']
 
 export function About() {
   return (
@@ -24,11 +24,10 @@ export function About() {
             Kohalik ettevõte, mis peab oma sõna
           </h2>
           <p className="mt-6 text-base leading-relaxed text-white/80">
-            Välimees OÜ teeb muruniitmist, trimmerdamist ja hekkide hooldust,
-            põrandapesu, värvimistöid ja muid majapidamistöid Otepääl, Kanepis,
-            Vidrikes ning lähiümbruses. Töö saab tehtud ilma jututa — vaatame
-            objekti üle, ütleme aususega, mis on mõistlik, ja teeme selle
-            korralikult ära.
+            Välimees OÜ pakub professionaalseid välitööde teenuseid
+            nii era- kui äriklientidele.
+            Meie eesmärk on hoida sinu kinnistu puhas, hooldatud ja esinduslik aastaringselt.
+            Kirjuta julgelt!
           </p>
         </div>
       </div>
