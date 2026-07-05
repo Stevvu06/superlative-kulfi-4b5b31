@@ -21,19 +21,19 @@ export function Hero() {
       <div className="relative mx-auto grid max-w-6xl gap-10 px-6 py-24 md:grid-cols-[1.1fr_0.9fr] md:py-32">
         <div className="animate-rise">
           <p className="mb-4 font-display text-sm font-semibold uppercase tracking-[0.35em] text-[var(--color-green-bright)]">
-            Otepää ja lähiümbrus
+            Otepää ja kagu-eesti
           </p>
           <h1 className="font-display text-6xl font-extrabold uppercase leading-[0.95] tracking-tight md:text-7xl">
-            Korras muru,
+            Välimees-
             <br />
-            puhas kodu,
+            Sinu usaldusväärne abiline välitöödel
             <br />
-            <span className="text-[var(--color-green-bright)]">tehtud töö</span>
+            <span className="text-[var(--color-green-bright)]">hästi tehtud töö!</span>
           </h1>
           <p className="mt-6 max-w-md text-lg text-white/80">
             Välimees OÜ niidab muru, hooldab hekke ja trimmib alasid, peseb
-            põrandaid ning teeb värvimistöid ja muid majapidamistöid Otepääl,
-            Kanepis, Vidrikes ja lähiümbruses.
+            põrandaid ning teeb värvimistöid ja muid välitöid Otepääl,
+            Kanepis ja lähiümbruses.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
