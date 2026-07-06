@@ -5,6 +5,7 @@ const HERO_SERVICES = [
   { icon: TrimIcon, label: 'Trimmerdamine' },
   { icon: WashIcon, label: 'Kivi- ja puitpindade pesu' },
   { icon: PaintIcon, label: 'Värvimistööd' },
+  { icon: PaintIcon, label: 'Muud tööd' },
 ]
 
 export function Hero() {
@@ -26,7 +27,7 @@ export function Hero() {
           <h1 className="font-display text-4xl font-extrabold uppercase leading-[0.95] tracking-tight md:text-5xl">
             Välimees OÜ
             <br />
-            Usaldusväärne abiline välitöödel
+            Sinu usaldusväärne abiline välitöödel
             <br />
             <span className="text-[var(--color-green-bright)]">Võta ühendust!</span>
           </h1>
