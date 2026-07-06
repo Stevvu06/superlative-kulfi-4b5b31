@@ -24,9 +24,9 @@ export function Hero() {
             Otepää ja kagu-eesti
           </p>
           <h1 className="font-display text-4xl font-extrabold uppercase leading-[0.95] tracking-tight md:text-7xl">
-            Välimees-
+            Välimees OÜ
             <br />
-            Sinu usaldusväärne abiline välitöödel
+            Usaldusväärne abiline välitöödel
             <br />
             <span className="text-[var(--color-green-bright)]">Võta ühendust!</span>
           </h1>
