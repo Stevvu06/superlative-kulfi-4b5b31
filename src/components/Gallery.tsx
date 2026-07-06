@@ -16,7 +16,7 @@ export function Gallery() {
           Teenused
         </p>
         <h2 className="font-display text-4xl font-extrabold uppercase leading-tight md:text-5xl">
-          Mida me teeme
+          Pakutavad teenused
         </h2>
         <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-6">
           {SERVICES.map(({ icon: Icon, title, description }) => (
