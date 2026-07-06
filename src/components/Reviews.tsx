@@ -1,23 +1,23 @@
 const REVIEWS = [
   {
-    name: 'Kaido Reinuma',
+    name: 'Kaido R',
     role: 'Suvila omanik, Otepää',
     quote:
-      'Tellisin muruniitmise ja hekkide trimmerdamise. Tulid kokkulepitud päeval ja jätsid hoovi korralikult puhtaks. Ei mingit lisatasu üllatust.',
+      'Tellisin muruniitmise ja trimmerdamise. Tulid kokkulepitud päeval ja tegid hoovi korralikult puhtaks. Sõbralikud mehed!.',
     rating: 5,
   },
   {
-    name: 'Aive Kalmus',
-    role: 'Majaomanik, Kanepi',
+    name: 'Aive K',
+    role: 'Majaomanik, Elva',
     quote:
-      'Palkasime terrassi ja fassaadi pesema ning hiljem ka värvima. Hinnapakkumine tuli kahe päevaga, töö sai valmis nädalaga.',
+      'Palkasime terrassi ja fassaadi pesema ning hiljem ka värvima. Hinnapakkumine tuli kahe päevaga, töö sai valmis nädalaga. Viisakas tulemus tuli!!',
     rating: 5,
   },
   {
-    name: 'Priit Õunapuu',
-    role: 'Elanik, Vidrike',
+    name: 'Priit Õ',
+    role: 'Elanik, Otepää lähiümbrusest',
     quote:
-      'Kasutame Välimeest juba korduvalt muru niitmiseks ja väiksemateks majapidamistöödeks. Mehed teavad, mida teevad — pole kordagi pidanud järele parandama.',
+      'Kasutame Välimeest juba korduvalt muru niitmiseks ja väiksemateks majapidamistöödeks. Mehed teavad, mida teevad ning saavad ka uute asjadega hakkama.',
     rating: 4,
   },
 ]
@@ -49,7 +49,7 @@ export function Reviews() {
         Kliendid räägivad
       </p>
       <h2 className="font-display text-4xl font-extrabold uppercase leading-tight md:text-5xl">
-        Mida meie kliendid ütlevad
+        Klentide tagasiside!
       </h2>
       <div className="mt-12 grid gap-6 md:grid-cols-3">
         {REVIEWS.map((review, index) => (
