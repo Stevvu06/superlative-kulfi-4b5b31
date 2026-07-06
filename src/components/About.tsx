@@ -1,4 +1,4 @@
-const AREAS = ['Otepää', 'Kanepi', 'Elva' 'ja ülejäänud Kagu-Eesti']
+const AREAS = ['Otepää', 'Kanepi', 'Elva', 'ja ülejäänud Kagu-Eesti']
 
 export function About() {
   return (
