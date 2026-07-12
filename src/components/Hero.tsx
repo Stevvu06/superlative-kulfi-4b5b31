@@ -24,7 +24,7 @@ export function Hero() {
           <p className="mb-4 font-display text-sm font-semibold uppercase tracking-[0.35em] text-[var(--color-green-bright)]">
             Otepää ja kagu-eesti
           </p>
-          <h1 className="font-display text-4xl font-extrabold uppercase leading-[2] tracking-tight md:text-6xl">
+          <h1 className="font-display text-4xl font-extrabold uppercase leading-[1] tracking-tight md:text-6xl">
             Välimees OÜ
             <br />
             Sinu usaldusväärne abiline välitöödel
