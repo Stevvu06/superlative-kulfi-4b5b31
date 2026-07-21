@@ -27,3 +27,4 @@ function HomePage() {
     </>
   )
 }
+<link rel="icon" type "image/png" href="Välimees_OÜ">
