@@ -6,7 +6,7 @@ import { Gallery } from '@/components/Gallery'
 import { Reviews } from '@/components/Reviews'
 import { Contact } from '@/components/Contact'
 import { Footer } from '@/components/Footer'
-
+<link rel="icon" type "image/png" href="Välimees_OÜ">
 export const Route = createFileRoute('/')({
   component: HomePage,
 })
@@ -27,4 +27,3 @@ function HomePage() {
     </>
   )
 }
-<link rel="icon" type "image/png" href="Välimees_OÜ">
