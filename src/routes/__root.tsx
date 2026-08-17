@@ -1,6 +1,5 @@
 import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
 
-
 import '../styles.css'
 
 export const Route = createRootRoute({
@@ -22,13 +21,20 @@ export const Route = createRootRoute({
           'Välimees OÜ teeb muruniitmist, trimmerdamist, Kivi- ja puitpindade pesu ja värvimistöid Otepääl ja lähiümbruses. Vaata teenuseid, klientide arvamusi ja võta ühendust.',
       },
     ],
+    links: [
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon.png',
+      },
+    ],
   }),
   shellComponent: RootDocument,
 })
 
 function RootDocument({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="et">
       <head>
         <HeadContent />
       </head>
