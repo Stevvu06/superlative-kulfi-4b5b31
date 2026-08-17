@@ -46,7 +46,7 @@ export function Contact() {
 
   return (
     <section id="kontakt" className="bg-[var(--color-slate-dark)] py-24 text-white">
-      <div className="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-[1fr_1fr] md:items-start">
+      <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-[1fr_1fr] md:items-start">
         <div>
           <p className="mb-3 font-display text-sm font-semibold uppercase tracking-[0.35em] text-[var(--color-green-bright)]">
             Võta ühendust

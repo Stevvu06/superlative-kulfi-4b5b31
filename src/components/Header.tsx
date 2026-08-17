@@ -10,10 +10,10 @@ const NAV_LINKS = [
 export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-white/10 bg-[var(--color-slate-dark)]/90 backdrop-blur-sm">
-      <div className="mx-auto flex max-w-6xl items-center justify-between py-4 pl-3 pr-6 md:pl-4">
+      <div className="mx-auto flex max-w-7xl items-center justify-between py-4 pl-3 pr-6 md:pl-4">
         <Link to="/" className="flex items-center gap-2">
-          <span className="flex h-10 shrink-0 items-center justify-center rounded-lg bg-[var(--color-green-bright)] px-2">
-            <img src="/favicon.png" alt="Välimees OÜ logo" className="h-8 w-auto object-contain" />
+          <span className="h-10 w-10 shrink-0 overflow-hidden rounded-lg border border-white/10">
+            <img src="/favicon.png" alt="Välimees OÜ logo" className="h-full w-full object-cover" />
           </span>
           <span className="font-display text-2xl font-bold uppercase tracking-wide leading-none text-white">
             Välimees <span className="text-[var(--color-green-bright)]">OÜ</span>

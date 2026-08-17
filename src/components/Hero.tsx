@@ -19,7 +19,7 @@ export function Hero() {
         className="pointer-events-none absolute -left-16 bottom-0 h-72 w-72 rounded-full opacity-10 blur-3xl"
         style={{ background: 'radial-gradient(circle, var(--color-grey-light) 0%, transparent 70%)' }}
       />
-      <div className="relative mx-auto grid max-w-6xl gap-12 px-6 py-28 md:grid-cols-[1.3fr_0.7fr] md:py-40">
+      <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-28 md:grid-cols-[1.3fr_0.7fr] md:py-40">
         <div className="animate-rise">
           <p className="mb-5 font-display text-sm font-semibold uppercase tracking-[0.35em] text-[var(--color-green-bright)]">
             Otepää ja kagu-eesti

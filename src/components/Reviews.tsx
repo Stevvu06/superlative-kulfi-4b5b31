@@ -44,7 +44,7 @@ function Stars({ count }: { count: number }) {
 
 export function Reviews() {
   return (
-    <section id="arvamused" className="mx-auto max-w-6xl px-6 py-24 text-white">
+    <section id="arvamused" className="mx-auto max-w-7xl px-6 py-24 text-white">
       <p className="mb-3 font-display text-sm font-semibold uppercase tracking-[0.35em] text-[var(--color-green-bright)]">
         Kliendid räägivad
       </p>

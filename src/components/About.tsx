@@ -2,7 +2,7 @@ const AREAS = ['Otepää', 'Kanepi', 'Elva', 'ja ülejäänud Kagu-Eesti']
 
 export function About() {
   return (
-    <section id="meist" className="mx-auto max-w-6xl px-6 py-24 text-white">
+    <section id="meist" className="mx-auto max-w-7xl px-6 py-24 text-white">
       <div className="grid gap-12 md:grid-cols-[0.9fr_1.1fr] md:items-center">
         <div className="rounded-3xl border border-white/10 bg-[var(--color-slate-soft)] p-8">
           <p className="mb-3 font-display text-sm font-semibold uppercase tracking-[0.35em] text-[var(--color-green-bright)]">

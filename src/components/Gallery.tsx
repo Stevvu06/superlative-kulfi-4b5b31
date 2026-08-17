@@ -11,14 +11,14 @@ const SERVICES = [
 export function Gallery() {
   return (
     <section id="teenused" className="bg-[var(--color-slate-dark)] py-24 text-white">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-7xl px-6">
         <p className="mb-3 font-display text-sm font-semibold uppercase tracking-[0.35em] text-[var(--color-green-bright)]">
           Teenused
         </p>
         <h2 className="font-display text-4xl font-extrabold uppercase leading-tight md:text-5xl">
           Pakutavad teenused
         </h2>
-        <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 md:gap-8">
+        <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 md:gap-8 lg:grid-cols-5">
           {SERVICES.map(({ icon: Icon, title, description }) => (
             <div
               key={title}
