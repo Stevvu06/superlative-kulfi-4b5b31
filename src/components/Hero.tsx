@@ -19,19 +19,20 @@ export function Hero() {
         className="pointer-events-none absolute -left-16 bottom-0 h-72 w-72 rounded-full opacity-10 blur-3xl"
         style={{ background: 'radial-gradient(circle, var(--color-grey-light) 0%, transparent 70%)' }}
       />
-      <div className="relative mx-auto grid max-w-6xl gap-10 px-6 py-24 md:grid-cols-[1.1fr_0.9fr] md:py-32">
+      <div className="relative mx-auto grid max-w-6xl gap-12 px-6 py-28 md:grid-cols-[1.3fr_0.7fr] md:py-40">
         <div className="animate-rise">
-          <p className="mb-4 font-display text-sm font-semibold uppercase tracking-[0.35em] text-[var(--color-green-bright)]">
+          <p className="mb-5 font-display text-sm font-semibold uppercase tracking-[0.35em] text-[var(--color-green-bright)]">
             Otepää ja kagu-eesti
           </p>
-          <h1 className="font-display text-4xl font-extrabold uppercase leading-[1] tracking-tight md:text-6xl">
+          <h1 className="font-display text-4xl font-extrabold uppercase leading-tight tracking-tight md:text-6xl md:leading-[1.05]">
             Välimees OÜ
             <br />
             Sinu usaldusväärne abiline välitöödel
-            <br />
-            <span className="text-[var(--color-green-bright)]">Võta ühendust!</span>
           </h1>
-          <p className="mt-6 max-w-md text-lg text-white/80">
+          <span className="mt-4 block font-display text-xl font-bold normal-case tracking-normal text-[var(--color-green-bright)] md:text-2xl">
+            Võta ühendust!
+          </span>
+          <p className="mt-7 max-w-lg text-lg leading-relaxed text-white/80">
             Välimees OÜ pakub professionaalseid välitööde teenuseid
             nii era- kui äriklientidele.
             Meie eesmärk on hoida sinu kinnistu puhas, hooldatud ja esinduslik aastaringselt.
@@ -53,14 +54,14 @@ export function Hero() {
           </div>
         </div>
         <div className="relative hidden animate-rise items-center md:flex" style={{ animationDelay: '0.15s' }}>
-          <div className="grid w-full max-w-sm grid-cols-2 gap-4">
+          <div className="grid w-full max-w-sm grid-cols-2 gap-5">
             {HERO_SERVICES.map(({ icon: Icon, label }) => (
               <div
                 key={label}
-                className="flex flex-col items-start gap-3 rounded-2xl border border-white/10 bg-[var(--color-slate-soft)] p-6"
+                className="flex flex-col items-start gap-4 rounded-2xl border border-white/10 bg-[var(--color-slate-soft)] p-7 transition-colors hover:border-[var(--color-green-bright)]/60"
               >
-                <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[var(--color-green)] text-white">
-                  <Icon />
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[var(--color-green)] text-white">
+                  <Icon className="h-6 w-6" />
                 </span>
                 <p className="font-display text-lg font-bold uppercase leading-tight tracking-wide">{label}</p>
               </div>

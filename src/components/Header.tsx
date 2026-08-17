@@ -10,12 +10,10 @@ const NAV_LINKS = [
 export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-white/10 bg-[var(--color-slate-dark)]/90 backdrop-blur-sm">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link to="/" className="flex items-center gap-3">
-          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[var(--color-green)] text-white">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.8">
-              <path d="M12 3c3 3.5 5 6.3 5 9a5 5 0 1 1-10 0c0-2.7 2-5.5 5-9Z" strokeLinejoin="round" />
-            </svg>
+      <div className="mx-auto flex max-w-6xl items-center justify-between py-4 pl-3 pr-6 md:pl-4">
+        <Link to="/" className="flex items-center gap-2">
+          <span className="flex h-10 shrink-0 items-center justify-center rounded-lg bg-[var(--color-green-bright)] px-2">
+            <img src="/favicon.png" alt="Välimees OÜ logo" className="h-8 w-auto object-contain" />
           </span>
           <span className="font-display text-2xl font-bold uppercase tracking-wide leading-none text-white">
             Välimees <span className="text-[var(--color-green-bright)]">OÜ</span>
