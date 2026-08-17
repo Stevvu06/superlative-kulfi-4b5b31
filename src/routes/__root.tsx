@@ -1,6 +1,5 @@
 import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
 
-
 import '../styles.css'
 
 export const Route = createRootRoute({
@@ -14,12 +13,19 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'Välimees OÜ — Metsa- ja aiatööd',
+        title: 'Välimees OÜ — Muruniitmine, trimmerdamine ja hooldustööd Otepääl',
       },
       {
         name: 'description',
         content:
-          'Välimees OÜ teeb metsa-, haljastus- ja hooldustöid Eestis. Vaata meie senist tööd, klientide arvamusi ja võta ühendust.',
+          'Välimees OÜ teeb muruniitmist, trimmerdamist, Kivi- ja puitpindade pesu ja värvimistöid Otepääl ja lähiümbruses. Vaata teenuseid, klientide arvamusi ja võta ühendust.',
+      },
+    ],
+    links: [
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon.png',
       },
     ],
   }),
@@ -28,7 +34,7 @@ export const Route = createRootRoute({
 
 function RootDocument({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="et">
       <head>
         <HeadContent />
       </head>

@@ -2,13 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600&display=swap");
 
 :root {
-  --color-bark: #211d17;
-  --color-moss: #38512f;
-  --color-moss-dark: #263620;
-  --color-stone: #e8e3d8;
-  --color-stone-dim: #d7d0bf;
-  --color-rust: #c1571f;
-  --color-rust-bright: #e0722f;
+  --color-slate: #2a2f2c;
+  --color-slate-dark: #1a1d1b;
+  --color-slate-soft: #3a413d;
+  --color-green: #3f6b46;
+  --color-green-bright: #5c9a63;
+  --color-grey: #8a908c;
+  --color-grey-light: #d8dbd8;
 }
 
 * {
@@ -23,8 +23,8 @@ body {
   margin: 0;
   font-family: "IBM Plex Sans", -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--color-stone);
-  color: var(--color-bark);
+  background-color: var(--color-slate);
+  color: #ffffff;
 }
 
 .font-display {
